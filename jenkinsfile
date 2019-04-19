@@ -12,4 +12,5 @@ pipeline {
 			  sh "java --version"
 		}
 	}
+    }
 }
