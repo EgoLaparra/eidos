@@ -9,11 +9,11 @@ pipeline {
         stage('Compile') {
 	            steps {
 			  echo "Compiling..."
-			  sh "sbt compile"
+			  sh "java --version"
 		}
 	}
 
-        stage('Test') {
+/*        stage('Test') {
 	            steps {
 		          echo "Testing..."
 			  sh "sbt test"
@@ -27,5 +27,5 @@ pipeline {
 		}
 	}
 
-    }
+    } */
 }
