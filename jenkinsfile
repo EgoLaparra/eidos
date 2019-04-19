@@ -12,20 +12,4 @@ pipeline {
 			  sh "java --version"
 		}
 	}
-
-/*        stage('Test') {
-	            steps {
-		          echo "Testing..."
-			  sh "sbt test"
-		}
-	}
-
-        stage('Package') {
-	            steps {
-		    	  echo "Packaging..."
-			  sh "sbt package"
-		}
-	}
-
-    } */
 }
