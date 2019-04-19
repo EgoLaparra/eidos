@@ -9,7 +9,7 @@ pipeline {
         stage('Compile') {
 	            steps {
 			  echo "Compiling..."
-			  sh "java --version"
+			  sh "java -version"
 		}
 	}
     }
