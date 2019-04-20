@@ -6,10 +6,10 @@ pipeline {
 
     stages {
 
-        stage('Compile') {
+        stage('Test') {
 	            steps {
-			  echo "Compiling..."
-			  sh "sbt sbtVersion"
+			  echo "Testing..."
+			  sh "sbt test"
 		}
 	}
     }
