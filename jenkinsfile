@@ -1,6 +1,3 @@
-/* uses sbt, which i installed with homebrew. */
-/* this works without requiring the 'sbt plugin'. */
-
 pipeline {
     agent any
 
