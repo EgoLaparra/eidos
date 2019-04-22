@@ -1,11 +1,5 @@
 pipeline {
   agent any
-  stages {
-    stage('') {
-      steps {
-        sh '''pipeline {
-    agent any
-
     stages {
 
         stage(\'Test\') {
@@ -13,10 +7,6 @@ pipeline {
 			  echo "Testing..."
 			  sh "sbt test"
 		}
-	}
-    }
-}'''
         }
       }
     }
-  }
