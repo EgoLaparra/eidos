@@ -2,7 +2,7 @@ pipeline {
   agent any
     stages {
 
-        stage(\'Test\') {
+        stage('Test') {
 	            steps {
 			  echo "Testing..."
 			  sh "sbt test"
