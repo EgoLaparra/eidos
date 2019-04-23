@@ -4,16 +4,8 @@ pipeline {
 
         stage('Test') {
 	            steps {
-		    	  parallel (
-			  "test 2.12" : {
-			  	   echo "Testing 2.12..."
-			  	   sh "sbt ++2.12.4 test"
-				   },
-			  "test 2.11" : {
-			  	   echo "Testing 2.11..."
-			  	   sh "sbt ++2.11.11 test"
-			  	}
-			  )
+			  echo "Testing..."
+			  sh "sbt ++2.12.4 test"
 		}
         }
       }
