@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/clulab/eidos.svg?branch=master)](https://travis-ci.org/clulab/eidos)
 
+Test it
 
 # Eidos
 JAJA
