@@ -1,4 +1,4 @@
-[![Build Status](http://jenkins.cs.arizona.edu:8090/job/eidos-test-pipeline/job/master/badge/icon)](http://jenkins.cs.arizona.edu:8090/job/eidos-test-pipeline/job/master/)
+[![Build Status](http://jenkins.cs.arizona.edu:8090/buildStatus/icon?job=eidos-test-pipeline%2Fmaster)](http://jenkins.cs.arizona.edu:8090/job/eidos-test-pipeline/job/master/)
 
 # Eidos
 
