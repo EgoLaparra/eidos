@@ -1,13 +1,22 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('') {
       steps {
-        ansiColor('xterm') {
-          echo "Testing..."
-          sh "sbt ++2.12.4 test"
+        sh '''pipeline {
+    agent any
+
+    stages {
+
+        stage(\'Test\') {
+	            steps {
+			  echo "Testing..."
+			  sh "sbt test"
+		}
+	}
+    }
+}'''
         }
       }
     }
   }
-}
