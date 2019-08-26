@@ -2,7 +2,7 @@
 
 # Eidos
 
-Test 2
+Test
 
 Eidos is an open-domain machine reading system designed by the [Computational
 Language Understanding (CLU) Lab](http://clulab.cs.arizona.edu) at [University
